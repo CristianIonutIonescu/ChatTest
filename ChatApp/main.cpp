@@ -20,8 +20,6 @@ int main(int argc, char* argv[]) {
             return 1;
         }
 
-        std::unordered_map<int,int> map;
-
         boost::asio::io_service io_service;
 
         tcp::resolver resolver(io_service);
